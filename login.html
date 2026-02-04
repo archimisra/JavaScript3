@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="toggle()">Toggle Theme</button>
+    <script>
+        let dark = false;
+        function toggle(){
+            if (dark)
+             document.body.style.background = "purple";
+           else
+             document.body.style.background = "pink";
+            dark = !dark;
+        
+        }
+    </script>
+</body>
+</html>
